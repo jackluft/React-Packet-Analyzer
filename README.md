@@ -18,7 +18,7 @@
 ## 🧰 Tech Stack
 
 ### Frontend
-- **React** (with hooks)
+- **React**
 - **JavaScript** and standard **CSS**
 - **Axios** for API requests
 
