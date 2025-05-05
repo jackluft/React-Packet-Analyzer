@@ -20,7 +20,6 @@
 ### Frontend
 - **React**
 - **JavaScript** and standard **CSS**
-- **Axios** for API requests
 
 ### Backend
 - **FastAPI** for serving and processing `.pcap` files
