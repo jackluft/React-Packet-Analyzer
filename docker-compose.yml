@@ -2,7 +2,9 @@ version: "3.8"
 services:
   frontend:
     build: ./frontend/web
+    ports:
+      - 80:80
   backend:
     build: ./backend
-    ports:
+    ports: 
       - 8000:8000
