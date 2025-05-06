@@ -1,0 +1,49 @@
+.sidebar{
+    position: fixed;
+    color: white;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: blue;
+    width: 100px;
+}
+.ddos-detection-section{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ddos-detection-section:hover{
+    color: black;
+}
+.ddos-table{
+    margin-top: 0;
+}
+.add-packet-section{
+    cursor: pointer;
+}
+.add-packet-section:hover{
+    color: black;
+}
+
+.ip-location-section{
+    cursor: pointer;
+}
+.ip-location-section:hover{
+    color: black;
+}
+
+
+.add-packet-text{
+    margin-top: 0;
+}
+.home-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.home-section{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.home-section:hover{
+    color: black;
+}

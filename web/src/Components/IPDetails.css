@@ -1,0 +1,22 @@
+.ip-container{
+    display: block;
+    margin-left: 40px;
+}
+.ip-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the left horizontally */
+    align-items: flex-start;     /* Align items to the top vertically (optional) */
+    text-align: left;     
+    
+    
+}
+.ip-txt{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+}
+.ip-title{
+    font-weight: bold;
+
+}
