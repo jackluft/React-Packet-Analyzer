@@ -3,17 +3,12 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import shutil
 import os
-import json
-
 from read_packets import readFile, analyse_ddos,ip_list
+
 app = FastAPI()
-origins = [
-    "http://localhost:5174",  # Your frontend's actual origin
-    "http://127.0.0.1:5174",  # Optional, for alternate access
-]
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"http://localhost:\d+",
+    allow_origin_regex=r"http://localhost(:\d+)?",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
