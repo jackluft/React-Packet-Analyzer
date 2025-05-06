@@ -33,3 +33,5 @@
 ### 1. Clone the repository
 
 ### 2. Have docker-compose installed
+
+### 3. Run: `docker-compose up`, then connect to http://localhost:80
